@@ -1,0 +1,438 @@
+﻿(영어)
+<size=16>AnyPortrait Update Log v1.2.0/v1.2.1</size>
+(Build November 25, 2019)
+
+<size=13>Improvements</size>
+
+- <color=blue>VR</color> is supported
+    The option to support VR is added in Bake dialog
+    The Material preset is added to support VR
+    Functions (SetRenderingCameras, FindRenderingCamerasAutomatically) are added in relation to VR
+    <color=red>(For more information, please visit our homepage)</color>
+
+- <color=blue>Target Texture property</color> of Cameras is supported
+    Clipped masks are rendered to a RenderTexture properly
+    "Keep Alpha" material preset for rendering to a Render Texture with translucent or transparent backgrounds
+    <color=red>(For more information, please visit our homepage)</color>
+
+- It is changed that Billboard option does not apply in Bake processing, only apply while the game is running
+- The performance of the AnyPortrait Editor has been slightly improved and stabilized (v1.2.1)
+- Auto-Scrolling in the animation timeline UI has been improved so that it also works when adding a keyframe or selecting and editing objects (v1.2.1)
+- Improved keyboard shortcuts in the animation timeline UI to better recognize them (v1.2.1)
+- The process method of FPS in the AnyPortrait Editor has been changed to be easier to see (v1.2.1)
+
+
+
+<size=13>Fixed issues</size>
+
+- A bug where animation clips for Mecanim would not be saved properly if there is a white space in the save path is fixed.
+- A bug that Custom FFD does not work properly when the size is 2 is fixed
+- A bug that the bone is not be controlled right after it is detached is fixed
+- A bug that functions which control meshes in a batch such as SetMeshImageAll and SetMeshColorAll do not work properly is fixed (Please execute Bake to apply)
+- A bug that Bake is failed when changing the Depth of a Child Mesh Group with the modifier's Extra option is fixed (v1.2.1)
+- A bug that the rendering order changed by the modifier's Extra option is not applied during screen capture is fixed (v1.2.1)
+- A bug that the Auto-Scrolling movement of animation timeline UI does not work properly is fixed (v1.2.1)
+- A bug that the "Temporary Show/Hide" buttons are displayed incorrectly in the Object List UI is fixed (v1.2.1)
+
+
+
+-----------------------------------------
+(한국어)
+<size=16>AnyPortrait 업데이트 로그 v1.2.0/v1.2.1</size>
+(2019년 11월 25일 빌드)
+
+<size=13>개선된 사항</size>
+
+- <color=blue>VR</color> 지원
+    Bake 설정 다이얼로그에 VR 지원 옵션 추가
+    VR을 지원하는 재질 프리셋이 추가
+    VR 지원과 관련하여 함수 추가 (SetRenderingCameras, FindRenderingCamerasAutomatically)
+    <color=red>(자세한 설명은 홈페이지를 확인하세요)</color>
+
+- 카메라의 <color=blue>Target Texture 속성</color> 지원
+    클리핑 마스크가 정상적으로 렌더링되도록 개선
+    반투명, 투명 배경의 Render Texture에 렌더링을 하는 경우를 위한 "Keep Alpha" 재질 프리셋 추가
+    <color=red>(자세한 설명은 홈페이지를 확인하세요)</color>
+    
+- Bake 실행 시에는 빌보드 옵션이 적용되지 않고, 게임 실행 중에만 적용되도록 변경
+- AnyPortrait 에디터의 성능이 일부 향상 (v1.2.1)
+- 애니메이션 타임라인 UI의 자동 스크롤 기능이 키프레임을 추가할 때, 오브젝트를 선택하고 편집할 때에도 동작하도록 개선 (v1.2.1)
+- 애니메이션 타임라인 UI의 키보드 단축키 입력처리가 개선 (v1.2.1)
+- AnyPortrait 에디터의 FPS 출력 방식이 개선 (v1.2.1)
+
+
+
+<size=13>수정된 문제점</size>
+
+- 메카님을 위한 애니메이션 클립 저장 경로에 공백이 있을 경우 제대로 저장되지 않는 버그 수정
+- FFD의 크기를 임의로 수정할 때, 크기가 2인 경우 제대로 동작하지 않는 버그 수정
+- 본을 Detach한 직후, 해당 본을 제어할 수 없는 버그 수정
+- SetMeshImageAll, SetMeshColorAll과 같은 메시들을 일괄 제어하는 함수들이 정상적으로 동작하지 않는 버그 수정 (Bake를 1회 해야 적용됨)
+- 모디파이어의 Extra 옵션으로 자식 메시 그룹의 Depth를 변경하는 경우 Bake가 되지 않는 버그 수정 (v1.2.1)
+- 화면 캡쳐시 Extra 옵션에 의해 변경된 렌더링 순서가 적용되지 않는 문제 수정 (v1.2.1)
+- 애니메이션 타임라인 UI의 자동 스크롤 기능이 정상적으로 동작하지 않는 버그 수정 (v1.2.1)
+- 오브젝트 리스트 UI의 "작업을 위한 일시적 Show/Hide" 버튼이 잘못 출력되는 버그 수정 (v1.2.1)
+	
+
+
+-----------------------------------------
+(프랑스어)
+<size=16>Fichier de mise à jour AnyPortrait v1.2.0/v1.2.1</size>
+(Construit le 25 novembre 2019)
+
+<size=13>Améliorations</size>
+
+- <color=blue>VR</color> est supporté
+    L'option de prise en charge de la réalité virtuelle est ajoutée dans la boîte de dialogue Cuire
+    Le préréglage Matériau est ajouté pour prendre en charge la réalité virtuelle
+    Des fonctions (SetRenderingCameras, FindRenderingCamerasAutomatically) sont ajoutées en relation avec VR
+    <color=red>(Pour plus d'informations, visitez notre page d'accueil.)</color>
+
+- La <color=blue>propriété de texture cible</color> de Caméras est prise en charge.
+    Les masques écrêtés sont correctement rendus dans une RenderTexture
+    "Keep Alpha" préréglé pour le rendu en texture de rendu avec des arrière-plans translucides ou transparents
+    <color=red>(Pour plus d'informations, visitez notre page d'accueil.)</color>
+
+- Il est modifié que l'option Billboard ne s'applique pas au traitement de cuisson au four, s'applique uniquement lorsque le jeu est en cours d'exécution.
+- Les performances de AnyPortrait Editor ont été légèrement améliorées et stabilisées (v1.2.1)
+- Le défilement automatique de l'interface utilisateur de la timeline de l'animation a été amélioré pour qu'il fonctionne également lors de l'ajout d'une image clé ou de la sélection et de la modification d'objets (v1.2.1).
+- Amélioration des raccourcis clavier dans l'interface utilisateur du scénario d'animation pour mieux les reconnaître (v1.2.1)
+- La méthode de traitement de FPS dans AnyPortrait Editor a été modifiée pour être plus facile à voir (v1.2.1)
+
+
+
+<size=13>Problème résolu</size>
+
+- Un bug où les clips d'animation pour Mecanim ne seraient pas sauvegardés correctement s'il y avait un espace blanc dans le chemin de sauvegarde est corrigé.
+- Un bug qui FFD personnalisé ne fonctionne pas correctement lorsque la taille est 2 est corrigé
+- Un bug qui dit que l'os n'est pas contrôlé juste après son détachement est corrigé
+- Un bogue qui ne fonctionne pas correctement pour contrôler les maillages d'un lot tels que SetMeshImageAll et SetMeshColorAll est corrigé (veuillez exécuter Bake pour l'appliquer).
+- Un bug d'échec de la cuisson au four lors de la modification de la profondeur d'un groupe de maillage enfant avec l'option Extra du modificateur est corrigé (v1.2.1)
+- Un bug indiquant que l'ordre de rendu modifié par l'option Extra du modificateur n'était pas appliqué lors de la capture d'écran est corrigé (v1.2.1)
+- Un bogue empêchant le mouvement de défilement automatique de l'interface utilisateur de la chronologie de l'animation est corrigé (v1.2.1)
+- Un bogue indiquant que les boutons "Afficher / masquer temporairement" ne sont pas affichés correctement dans l'interface utilisateur de la liste d'objets est corrigé (v1.2.1)
+
+
+
+-----------------------------------------
+(독일어)
+<size=16>AnyPortrait-Aktualisierungsprotokoll v1.2.0/v1.2.1</size>
+(Build 25. November 2019)
+
+
+<size=13>Verbesserungen</size>
+
+- <color=blue>VR</color> wird unterstützt
+    Die Option zur Unterstützung von VR wurde im Dialogfeld "Backen" hinzugefügt
+    Die Materialvoreinstellung wird hinzugefügt, um VR zu unterstützen
+    Funktionen (SetRenderingCameras, FindRenderingCamerasAutomatically) werden in Bezug auf VR hinzugefügt
+    <color=red>(Weitere Informationen finden Sie auf unserer Homepage)</color>
+
+- <color=blue>Target Texture</color> von Kameras wird unterstützt
+    Ausgeschnittene Masken werden ordnungsgemäß in eine RenderTexture gerendert
+    Materialvoreinstellung "Keep Alpha" zum Rendern in eine Rendertextur mit durchscheinendem oder transparentem Hintergrund
+    <color=red>(Weitere Informationen finden Sie auf unserer Homepage)</color>
+
+- Es wurde geändert, dass die Billboard-Option bei der Backverarbeitung nicht angewendet wird, sondern nur, während das Spiel läuft
+- Die Leistung des AnyPortrait Editors wurde leicht verbessert und stabilisiert (v1.2.1)
+- Das automatische Scrollen in der Benutzeroberfläche der Animations-Timeline wurde verbessert, sodass es auch beim Hinzufügen eines Keyframes oder beim Auswählen und Bearbeiten von Objekten funktioniert (v1.2.1)
+- Verbesserte Tastaturkürzel in der Benutzeroberfläche der Animationszeitleiste, um sie besser zu erkennen (v1.2.1)
+- Die Verarbeitungsmethode von FPS im AnyPortrait-Editor wurde geändert, um die Anzeige zu vereinfachen (v1.2.1)
+
+
+
+<size=13>Problem behoben</size>
+
+- Es wurde ein Fehler behoben, durch den Animationsclips für Mecanim nicht ordnungsgemäß gespeichert wurden, wenn im Speicherpfad ein weißer Bereich vorhanden war.
+- Ein Fehler, dass Custom FFD nicht richtig funktioniert, wenn die Größe 2 ist, ist behoben
+- Ein Fehler, der dazu führte, dass der Knochen unmittelbar nach dem Ablösen nicht mehr kontrolliert werden konnte, wurde behoben
+- Ein Fehler, der dazu führt, dass Netze in einem Stapel wie SetMeshImageAll und SetMeshColorAll nicht ordnungsgemäß gesteuert werden, wurde behoben.
+- Ein Fehler, bei dem das Backen fehlschlug, wenn die Tiefe einer untergeordneten Netzgruppe mit der Option "Extra" des Modifikators geändert wurde, wurde behoben (v1.2.1)
+- Ein Fehler, bei dem die durch die Option "Extra" des Modifikators geänderte Renderreihenfolge während der Bildschirmaufnahme nicht angewendet wurde, wurde behoben (v1.2.1)
+- Ein Fehler, der dazu führte, dass die Auto-Scrolling-Bewegung der Benutzeroberfläche der Animations-Timeline nicht richtig funktionierte, wurde behoben (v1.2.1)
+- Ein Fehler, der dazu führte, dass die Schaltflächen "Temporäres Einblenden / Ausblenden" in der Benutzeroberfläche der Objektliste nicht korrekt angezeigt wurden, wurde behoben (v1.2.1)
+
+
+
+-----------------------------------------
+(스페인어)
+<size=16>AnyPortrait Update Log v1.2.0/v1.2.1</size>
+(Construir el 25 de noviembre de 2019)
+
+
+<size=13>Mejoras</size>
+
+- <color=blue>VR</color> es compatible
+    La opción para admitir VR se agrega en el cuadro de diálogo Bake
+    El material preestablecido se agrega para admitir VR
+    Las funciones (SetRenderingCameras, FindRenderingCamerasAutomatically) se agregan en relación con VR
+    <color=red>(Para obtener más información, visite nuestra página de inicio)</color>
+
+- Se admite la propiedad <color=blue>de Textura de Destino</color> de las cámaras
+    Las máscaras recortadas se procesan en RenderTexture correctamente
+    Material "Keep Alpha" preestablecido para renderizar a una textura de renderizado con fondos translúcidos o transparentes
+    <color=red>(Para obtener más información, visite nuestra página de inicio)</color>
+
+- Se modificó que la opción Billboard no se aplica en el procesamiento de hornear, solo se aplica mientras el juego se está ejecutando
+- El rendimiento del editor AnyPortrait se ha mejorado y estabilizado ligeramente (v1.2.1)
+- Se ha mejorado el desplazamiento automático en la interfaz de usuario de la línea de tiempo de la animación para que también funcione al agregar un fotograma clave o al seleccionar y editar objetos (v1.2.1)
+- Atajos de teclado mejorados en la interfaz de usuario de la línea de tiempo de la animación para reconocerlos mejor (v1.2.1)
+- El método de proceso de FPS en AnyPortrait Editor se ha cambiado para que sea más fácil de ver (v1.2.1)
+
+
+
+<size=13>Problema solucionado</size>
+
+- Se corrigió un error en el que los clips de animación para Mecanim no se guardarían correctamente si había un espacio en blanco en la ruta de guardado.
+- Se corrigió un error por el cual FFD personalizado no funciona correctamente cuando el tamaño es 2
+- Se corrigió un error que indica que el hueso no se controla inmediatamente después de que se separa
+- Se solucionó un error que funciona y que controla mallas en un lote como SetMeshImageAll y SetMeshColorAll no funciona correctamente (ejecute Bake para aplicar)
+- Se solucionó un error por el cual Bake fallaba al cambiar la profundidad de un grupo de malla infantil con la opción Extra del modificador (v1.2.1)
+- Se corrigió un error que indica que el orden de representación cambiado por la opción Extra del modificador no se aplica durante la captura de pantalla (v1.2.1)
+- Se corrigió un error que indica que el movimiento de desplazamiento automático de la interfaz de usuario de la línea de tiempo de la animación no funciona correctamente (v1.2.1)
+- Se corrigió un error que indica que los botones "Mostrar / Ocultar temporalmente" se muestran incorrectamente en la IU de la Lista de objetos (v1.2.1)
+
+
+
+-----------------------------------------
+(이탈리아어)
+<size=16>Registro aggiornamenti AnyPortrait v1.2.0/v1.2.1</size>
+(Build 25 novembre 2019)
+
+
+<size=13>Miglioramenti</size>
+
+- <color=blue>VR</color> is supported
+    L'opzione per supportare la VR viene aggiunta nella finestra di dialogo Cuocia
+    Il preset materiale viene aggiunto per supportare la realtà virtuale
+    Le funzioni (SetRenderingCameras, FindRenderingCamerasAutomatically) vengono aggiunte in relazione alla VR
+    <color=red>(Per maggiori informazioni, visita la nostra homepage)</color>
+
+- È supportata la proprietà <color=blue>Target Texture</color> delle telecamere
+    Le maschere ritagliate vengono renderizzate correttamente in RenderTexture
+    Preselezione materiale "Keep Alpha" per il rendering in una trama di rendering con sfondi traslucidi o trasparenti
+    <color=red>(Per maggiori informazioni, visita la nostra homepage)</color>
+
+- È stato modificato il fatto che l'opzione Billboard non si applica all'elaborazione Bake, si applica solo mentre il gioco è in esecuzione
+- Le prestazioni di AnyPortrait Editor sono state leggermente migliorate e stabilizzate (v1.2.1)
+- Lo scorrimento automatico nell'interfaccia utente della sequenza temporale dell'animazione è stato migliorato in modo che funzioni anche durante l'aggiunta di un fotogramma chiave o la selezione e la modifica di oggetti (v1.2.1)
+- Scorciatoie da tastiera migliorate nell'interfaccia utente della sequenza temporale dell'animazione per riconoscerle meglio (v1.2.1)
+- Il metodo di processo di FPS nell'editor AnyPortrait è stato modificato per essere più facile da vedere (v1.2.1)
+
+
+
+<size=13>Risolto il problema</size>
+
+- È stato corretto un bug in cui i clip di animazione per Mecanim non venivano salvati correttamente se è stato riparato uno spazio bianco nel percorso di salvataggio.
+- È stato corretto un bug per cui FFD personalizzato non funziona correttamente quando la dimensione è 2
+- È stato corretto un bug per cui l'osso non veniva controllato subito dopo che è stato staccato
+- È stato corretto un bug che funziona che controlla le mesh in un batch come SetMeshImageAll e SetMeshColorAll che non funzionano correttamente (eseguire Bake per applicare)
+- È stato corretto un bug per cui Bake non è riuscito quando si modifica la profondità di un gruppo di mesh figlio con l'opzione Extra del modificatore (v1.2.1)
+- È stato corretto un bug per cui l'ordine di rendering modificato dall'opzione Extra del modificatore non veniva applicato durante la cattura dello schermo (v1.2.1)
+- È stato corretto un bug per cui il movimento a scorrimento automatico dell'interfaccia utente della sequenza temporale dell'animazione non funziona correttamente (v1.2.1)
+- È stato corretto un bug relativo alla visualizzazione errata dei pulsanti "Mostra / nascondi temporaneo" nell'interfaccia utente dell'elenco oggetti (v1.2.1)
+
+
+
+-----------------------------------------
+(덴마크어)
+<size=16>AnyPortrait Update Log v1.2.0/v1.2.1</size>
+(Byg den 25. november 2019)
+
+
+<size=13>Forbedringer</size>
+
+- <color=blue>VR</color> understøttes
+    Indstillingen til at understøtte VR tilføjes i Bake-dialog
+    Den forudindstillede materiale tilføjes til understøttelse af VR
+    Funktioner (SetRenderingCameras, FindRenderingCamerasAutomatically) tilføjes i forhold til VR
+    <color=red>(For mere information, se venligst vores hjemmeside)</color>
+
+- <color=blue>Egenskaber for måltekstur</color> på kameraer understøttes
+    Klippede masker gengives korrekt til en RenderTexture
+    "Keep Alpha" -materiale forudindstillet til gengivelse til en gengivelse af struktur med gennemsigtig eller gennemsigtig baggrund
+    <color=red>(For mere information, se venligst vores hjemmeside)</color>
+
+- Det ændres, at Billboard-indstillingen ikke gælder i Bake-behandling, kun gælder, mens spillet kører
+- Ydelsen for AnyPortrait Editor er blevet forbedret lidt og stabiliseret (v1.2.1)
+- Automatisk rulning i animationens tidslinje-brugergrænseflade er blevet forbedret, så den også fungerer, når du tilføjer en nøgleramme eller vælger og redigerer objekter (v1.2.1)
+- Forbedrede tastaturgenveje i animationens tidslinje-brugergrænseflade for bedre at genkende dem (v1.2.1)
+- Processmetoden for FPS i AnyPortrait Editor er blevet ændret for at være lettere at se (v1.2.1)
+
+
+
+<size=13>Faste problem</size>
+
+- En fejl, hvor animationsklip til Mecanim ikke gemmes korrekt, hvis der er et hvidt rum i gemte stien, er rettet.
+- En fejl, som brugerdefineret FFD ikke fungerer korrekt, når størrelsen er 2, er rettet
+- En fejl, hvor knoglen ikke kontrolleres lige efter den er løsnet, er løst
+- En bug, der fungerer, der styrer meshes i en batch som SetMeshImageAll og SetMeshColorAll ikke fungerer korrekt, er rettet (udfør Bake for at anvende)
+- En fejl, som Bake mislykkes, når du ændrer Dybden af en Child Mesh Group med modifikatorens ekstraindstilling er rettet (v1.2.1)
+- En fejl, hvor gengivelsesrækkefølgen ændret af modifikatorens ekstraindstilling ikke anvendes under skærmoptagelse, er rettet (v1.2.1)
+- En fejl, hvor den automatiske rullebevægelse af animationens tidslinje UI ikke fungerer korrekt, er rettet (v1.2.1)
+- En fejl, som knapperne "Midlertidig vis / skjul" vises forkert i objektliste-grænsefladen er rettet (v1.2.1)
+
+
+
+-----------------------------------------
+(일본어)
+<size=16> AnyPortrait更新ログv1.2.0/v1.2.1</size>
+（2019年11月25日ビルド）
+
+<size=13>改善点</size>
+
+- <color=blue>VR</color>サポート
+    Bake設定ダイアログにVRサポートオプションを追加
+    VRをサポートする材料のプリセットが追加
+    VRサポートに関連して、関数を追加（SetRenderingCameras、FindRenderingCamerasAutomatically）
+    <color=red>（詳細はホームページを確認してください）</color>
+
+- カメラの<color=blue>「Target Texture」属性</color>サポート
+    クリッピングマスクが正常に描画されるよう改善
+    半透明、透明な背景のRender Textureにレンダリングをする場合のための「Keep Alpha」材質プリセットを追加
+    <color=red>（詳細はホームページを確認してください）</color>
+
+- Bake実行時には、ビルボードのオプションが適用されず、ゲームの実行中にのみ適用されるように変更
+- AnyPortraitエディタの性能がもう少し改善され安定化 (v1.2.1)
+- アニメーションタイムラインUIのスクロールが自動的に移動する機能がキーフレームを追加したり、オブジェクトを選択し、編集するときにも動作するように改善 (v1.2.1)
+- アニメーションタイムラインUIのキーボードショートカットがよりよく認識されるように改善 (v1.2.1)
+- AnyPortraitエディタのFPSの可読性が良くなるように改善 (v1.2.1)
+
+
+
+<size=13>修正された問題</size>
+
+- メカ様のためのアニメーションクリップを保存パスにスペースがある場合、正しく保存されないバグを修正
+- FFDのサイズを任意に変更するとき、大きさが2である場合、正常に動作しないバグを修正
+- 本をDetachた直後に、その本を制御することができないバグを修正
+- 「SetMeshImageAll、SetMeshColorAll」 のようなメッシュを一括制御する機能が正常に動作しないバグを修正 （Bakeを1回する必要が適用される）
+- モディファイヤのExtraオプションで子メッシュグループのDepthを変更する場合Bakeがされていない問題が修正 (v1.2.1)
+- 画面キャプチャ時モディファイヤのExtraオプションによって変更されたレンダリング順序が適用されない問題が修正 (v1.2.1)
+- アニメーションタイムラインUIのスクロールが自動的に移動されている機能が正常に動作しない問題が修正 (v1.2.1)
+- オブジェクトリストのUIで「作業のための一時的Show / Hide」のボタンが間違って出力される問題が修正 (v1.2.1)
+
+​
+
+
+
+-----------------------------------------
+(중국어-번체)
+<size=16>AnyPortrait更新日誌v1.2.0/v1.2.1</size>
+（建立2019年11月25日）
+
+
+<size=13>改進</size>
+
+- 支持<color=blue>VR</color>
+    在“烘烤”對話框中添加了支持VR的選項
+    添加了Material預設以支持VR
+    與VR相關的功能（SetRenderingCameras，FindRenderingCamerasAutomatic）被添加
+    <color=red>（有關更多信息，請訪問我們的主頁）</color>
+
+- 支持Cameras的<color=blue>Target Texture屬性</color>
+    裁剪的遮罩將正確渲染到RenderTexture
+    預設“保持Alpha”材質以渲染為具有半透明或透明背景的渲染紋理
+    <color=red>（有關更多信息，請訪問我們的主頁）</color>
+
+- 更改了“公告牌”選項不適用於“烘焙”處理，僅在遊戲運行時適用
+- AnyPortrait編輯器的性能已得到稍微改善和穩定（v1.2.1）
+- 動畫時間軸UI中的自動滾動已得到改進，以便在添加關鍵幀或選擇和編輯對象時也可以使用（v1.2.1）
+- 改進了動畫時間軸UI中的鍵盤快捷鍵以更好地識別它們（v1.2.1）
+- AnyPortrait編輯器中FPS的處理方法已更改為更易於查看（v1.2.1）
+
+
+
+<size=13>修復了問題</size>
+
+- 修復瞭如果保存路徑中存在空白，則無法正確保存Mecanim動畫剪輯的錯誤。
+- 修復了當大小為2時自定義FFD無法正常工作的錯誤
+- 修復了骨骼分離後無法立即控制骨骼的錯誤
+- 修復了控制批處理網格的功能（例如SetMeshImageAll和SetMeshColorAll）無法正常工作的錯誤（請執行烘烤以應用）
+- 修正了使用修改器的“附加”選項更改子網格組的深度時，烘焙失敗的錯誤（v1.2.1）
+- 修正了屏幕捕獲期間未應用通過修改器的“附加”選項更改的渲染順序的錯誤（v1.2.1）
+- 修復了動畫時間軸UI的自動滾動運動無法正常工作的錯誤（v1.2.1）
+- 修復了“對象列表”用戶界面中“臨時顯示/隱藏”按鈕顯示不正確的錯誤（v1.2.1）
+
+
+
+-----------------------------------------
+(중국어-간체)
+<size=16>AnyPortrait更新日志v1.2.0/v1.2.1</size>
+（建立2019年11月25日）
+
+
+<size=13>改进</size>
+
+- 支持<color=blue>VR</color>
+    在“烘烤”对话框中添加了支持VR的选项
+    添加了Material预设以支持VR
+    与VR相关的功能（SetRenderingCameras，FindRenderingCamerasAutomatic）被添加
+    <color=red>（有关更多信息，请访问我们的主页）</color>
+
+- 支持Cameras的<color=blue>Target Texture属性</color>
+    裁剪的遮罩将正确渲染到RenderTexture
+    预设“保持Alpha”材质以渲染为具有半透明或透明背景的渲染纹理
+    <color=red>（有关更多信息，请访问我们的主页）</color>
+
+- 更改了“公告牌”选项不适用于“烘焙”处理，仅在游戏运行时适用
+- AnyPortrait编辑器的性能已得到稍微改善和稳定（v1.2.1）
+- 动画时间轴UI中的自动滚动已得到改进，以便在添加关键帧或选择和编辑对象时也可以使用（v1.2.1）
+- 改进了动画时间轴UI中的键盘快捷键以更好地识别它们（v1.2.1）
+- AnyPortrait编辑器中FPS的处理方法已更改为更易于查看（v1.2.1）
+
+
+
+<size=13>修复了问题</size>
+
+- 修复了如果保存路径中存在空白，则无法正确保存Mecanim动画剪辑的错误。
+- 修复了当大小为2时自定义FFD无法正常工作的错误
+- 修复了骨骼分离后无法立即控制骨骼的错误
+- 修复了控制批处理网格的功能（例如SetMeshImageAll和SetMeshColorAll）无法正常工作的错误（请执行烘烤以应用）
+- 修正了使用修改器的“附加”选项更改子网格组的深度时，烘焙失败的错误（v1.2.1）
+- 修正了屏幕捕获期间未应用通过修改器的“附加”选项更改的渲染顺序的错误（v1.2.1）
+- 修复了动画时间轴UI的自动滚动运动无法正常工作的错误（v1.2.1）
+- 修复了“对象列表”用户界面中“临时显示/隐藏”按钮显示不正确的错误（v1.2.1）
+
+
+
+-----------------------------------------
+(폴란드어)
+<size=16>Dziennik aktualizacji AnyPortret v1.2.0/v1.2.1</size>
+(Zbuduj 25 listopada 2019 r.)
+
+
+<size=13>Ulepszenia</size>
+
+- Obsługiwana jest opcja <color=blue>VR</color>
+    Opcja obsługi VR została dodana w oknie dialogowym Piec
+    Ustawienie wstępne materiału zostało dodane w celu obsługi VR
+    Funkcje (SetRenderingCameras, FindRenderingCamerasAutomatically) są dodawane w odniesieniu do VR
+    <color=red> (Aby uzyskać więcej informacji, odwiedź naszą stronę główną)</color>
+
+- Obsługiwana jest <color=blue>Właściwość docelowej tekstury</color> kamer
+    Obcięte maski są renderowane poprawnie do RenderTexture
+    Wstępnie ustawiony materiał „Zachowaj alfa” do renderowania do tekstury renderowania z półprzezroczystym lub przezroczystym tłem
+    <color=red> (Aby uzyskać więcej informacji, odwiedź naszą stronę główną) </color>
+
+- Zmieniono, że opcja Billboard nie ma zastosowania w przetwarzaniu Bake, ma zastosowanie tylko podczas gry
+- Wydajność edytora AnyPortrait została nieznacznie poprawiona i ustabilizowana (v1.2.1)
+- Ulepszono automatyczne przewijanie w interfejsie użytkownika osi czasu animacji, dzięki czemu działa ono również podczas dodawania klatki kluczowej lub wybierania i edytowania obiektów (v1.2.1)
+- Poprawione skróty klawiaturowe w interfejsie użytkownika osi czasu animacji, aby lepiej je rozpoznawać (v1.2.1)
+- Zmieniono metodę procesu FPS w edytorze AnyPortrait, aby była lepiej widoczna (v1.2.1)
+
+
+
+<size=13>Naprawiono problem</size>
+
+- Naprawiono błąd polegający na tym, że klipy animacji dla Mecanim nie były poprawnie zapisywane, jeśli na ścieżce zapisu znajduje się biała przestrzeń.
+- Naprawiono błąd polegający na tym, że niestandardowy FFD nie działa poprawnie, gdy rozmiar wynosi 2
+- Naprawiono błąd polegający na tym, że kość nie jest kontrolowana zaraz po jej odłączeniu
+- Błąd, który działa, który kontroluje siatki w partii, takiej jak SetMeshImageAll i SetMeshColorAll, nie działa poprawnie (został naprawiony Bake, aby zastosować)
+- Naprawiono błąd polegający na tym, że Bake nie powiódł się podczas zmiany głębokości grupy oczek podrzędnych za pomocą opcji dodatkowej modyfikatora (v1.2.1)
+- Naprawiono błąd polegający na tym, że kolejność renderowania zmieniona przez opcję Extra modyfikatora nie jest stosowana podczas przechwytywania ekranu (v1.2.1)
+- Błąd polegający na tym, że interfejs automatycznego przewijania animacji na osi czasu nie działa poprawnie (v1.2.1)
+- Naprawiono błąd polegający na tym, że przyciski „Tymczasowe wyświetlanie / ukrywanie” są wyświetlane nieprawidłowo w interfejsie listy obiektów (v1.2.1)
+
+
+
+-----------------------------------------
